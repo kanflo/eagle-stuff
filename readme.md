@@ -40,10 +40,3 @@ This Eagle library contains stuff I have used in my designs and is in the public
 | TEST-POINT | I test point pad |
 | TMP102 | Texas Instruments TMP102 Low-Power Digital Temperature Sensor With SMBus and Two-Wire Serial Interface in SOT563. |
 | USB Connectors | USB-A-H-VERTICAL a variant of SparkFun's USB-A-H (PRT-00437) that is mounted standing on the PCB. Bend the legs of the connector and solder in place. Solder header pins to the remaining holes to act as support for the connector. Used in the Esproom. |
-midi:eagle-stuff jhn$ 
-
-
-
-
-
-
