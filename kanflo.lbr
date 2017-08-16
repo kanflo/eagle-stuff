@@ -1607,17 +1607,17 @@ This connector mates with an FTDI adapter using a straight ribbon cable.</descri
 <wire x1="-2.6" y1="2" x2="-2.5" y2="2" width="0.127" layer="25"/>
 </package>
 <package name="DO-214AA">
-<wire x1="-2.3" y1="1.5" x2="-2.3" y2="1.95" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="1.95" x2="2.3" y2="1.95" width="0.127" layer="21"/>
-<wire x1="2.3" y1="1.95" x2="2.3" y2="1.5" width="0.127" layer="21"/>
-<wire x1="2.3" y1="-1.5" x2="2.3" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="2.3" y1="-1.95" x2="-2.3" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="-1.95" x2="-2.3" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="0.873" y1="1.889" x2="0.873" y2="-1.889" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.2" x2="-2.3" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="1.55" x2="2.3" y2="1.55" width="0.127" layer="21"/>
+<wire x1="2.3" y1="1.55" x2="2.3" y2="1.2" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-1.2" x2="2.3" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="2.3" y1="-1.55" x2="-2.3" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="-1.55" x2="-2.3" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="0.873" y1="1.489" x2="0.873" y2="-1.489" width="0.2032" layer="21"/>
 <smd name="A" x="-2.3" y="0" dx="2" dy="2.11" layer="1" rot="R180"/>
 <smd name="C" x="2.3" y="0" dx="2" dy="2.11" layer="1"/>
-<text x="-2.286" y="2.405" size="0.889" layer="25" ratio="15">&gt;NAME</text>
-<text x="-2.286" y="-2.786" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-2.286" y="2.105" size="0.889" layer="25" ratio="15">&gt;NAME</text>
+<text x="-2.286" y="-2.386" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="2220">
 <smd name="P$1" x="-2.2" y="0" dx="2.15" dy="4" layer="1" rot="R180"/>
