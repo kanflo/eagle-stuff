@@ -6,7 +6,9 @@ This Eagle library contains stuff I have used in my designs and is in the public
 |----------|---------------|
 | 2WAY SWITCH | 2 way switch through hole, 6 terminals. |
 | 8X2MM POGO PIN | 8x 1.02mm pogo pins. P75-B1 Dia 1.02mm 100g Spring Test Probe Pogo Pin found on [eBay](http://www.ebay.com/itm/100-Pieces-P75-B1-Dia-1-02mm-100g-). |
-| AAPROG | COmbined SWO and UART interface |
+| AAPROG | Combined SWO and UART interface, used in AAduino Zero |
+| AAPROG-TH | Through hole footprint for AAPROG pogo pin adapters. Use P75 pigo pins. |
+| AAPROG-TH-MIRROR | Mirrored variant for use in test fixture boards. |
 | AD7992 | 2-Channel, 12-Bit ADC with I2C-Compatible Interface |
 | AP1509 | Diodes Inc 150KHz, 2A PWM BUCK DC/DC converter |
 | AVR_MICRO_ICP | A tiny AVR ICP connector available as TP and TH for adding pogo pins |
@@ -17,10 +19,13 @@ This Eagle library contains stuff I have used in my designs and is in the public
 | ESP-WROOM-32 | The Next Big Thing from Espressif |
 | ESP3212 | The Next Big Thing from Ai Thinker |
 | ESPROG-DEVICE | The device pads of the Esprog connector. |
+| ESPROG-TH | Through hole footprint for Esprog pogo pin adapters. Use P75 pigo pins. |
+| ESPROG-IDC | 6 pin IDC connector for the Espprog interface. |
 | FTDI DEVICE | FTDI connector, device side. This connector mates with an FTDI adapter using a straight ribbon cable. |
 | JST ZH 2PIN | JST ZH connector, 2 pins. ZH has 1.5mm spacing. |
-| JST ZH 3PIN | JST ZH connector, 3 pin. ZH has 1.5mm spacing. |
+| JST ZH 3PIN | JST ZH connector, 3 pins. ZH has 1.5mm spacing. |
 | JST_PH_2PIN | 2 pin JST PH connector used for LiPo batteries |
+| JST GH 4PIN | JST GH connector, 4 pins. GH has 1.25mm spacing. |
 | KEYSTONE-629 | PCB Mount Battery Contact for 1 (AA), 1 (AAA), 1 (N), Coil Spring Contact |
 | KEYSTONE-637 | PCB Mount Battery Contact for 1 (AA), 1 (AAA), 1 (N), Button Contact |
 | LDR | Symbol and footprint for 0.1" through hole light dependent resistor |
@@ -48,3 +53,6 @@ This Eagle library contains stuff I have used in my designs and is in the public
 | TMP102 | Texas Instruments TMP102 Low-Power Digital Temperature Sensor With SMBus and Two-Wire Serial Interface in SOT563. |
 | USB-A-FEMALE | A horizontal USB male connector (need to change name :) with its legs bent making it a vertical connector |
 | USB-A-H-VERTICAL | A variant of SparkFun's USB-A-H (PRT-00437) that is mounted standing on the PCB. Bend the legs of the connector and solder in place. Solder header pins to the remaining holes to act as support for the connector. Used in the Esproom. |
+| SYM-* | Various silk screen symbols |
+| ARM-JTAG-SWD | ICD connector for 10 pin ARM SWD with optional TX/RX pins |
+| AT45DB041E | 4Mbit, 0.150" Wide Body SOIC-8 SPI flash |
